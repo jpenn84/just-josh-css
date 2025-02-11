@@ -1,0 +1,25 @@
+{
+  "name": "just-josh-css",
+  "version": "0.0.1",
+  "description": "A little CSS library for my projects. Feel free to use it and build upon it!",
+  "keywords": [
+    "css",
+    "josh"
+  ],
+  "homepage": "https://github.com/jpenn84/just-josh-css#readme",
+  "bugs": {
+    "url": "https://github.com/jpenn84/just-josh-css/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpenn84/just-josh-css.git"
+  },
+  "license": "GPL-3.0",
+  "author": "Joshua Lee Penn",
+  "type": "commonjs",
+  "main": "justjosh.css",
+  "scripts": {
+    "sass-dev": "sass --watch --update --style=expanded **/:public/css",
+    "sass-prod": "sass --no-source-map --style=compressed **/:public/css"
+  }
+}
