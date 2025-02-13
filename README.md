@@ -37,18 +37,10 @@ Install dependencies
 Run sass
 
 ```bash
-  npm sass-dev
+  npm run build
 ```
 
 Open the html test file
-
-Build css file
-
-```bash
-  npm sass-prod
-```
-
-Use that file
 
 ## Authors
 

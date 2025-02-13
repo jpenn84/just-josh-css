@@ -19,7 +19,11 @@
   "type": "commonjs",
   "main": "justjosh.css",
   "scripts": {
-    "sass-dev": "sass --watch --update --style=expanded **/:public/css",
-    "sass-prod": "sass --no-source-map --style=compressed **/:public/css"
+    "build": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^6.0.0",
+    "sass": "^1.83.4"
   }
 }
